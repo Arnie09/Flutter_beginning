@@ -12,3 +12,4 @@ This application simply switchees between two images on press of a button.
   * Showing Image,Texts,using assets
   * Implementation of Raised Buttons
   * Implementing state change due to button click
+  * Implementation of modular code,interaction between stateless and stateful widgets.
