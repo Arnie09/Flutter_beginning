@@ -7,14 +7,18 @@ class Images extends StatelessWidget{
 
   @override
   Widget build(BuildContext context) {
-    return Card(
+    return name!=""?
+            Card(
+              color: Colors.purple[600],
+              
               child: Column(
                 children: <Widget>[
                 Image.asset(name),
                 Text(name)
               ]),
-            );
+            ):Card(child:Center(child:Column(children: <Widget>[Text("Nothing to show!")],)));
+            }
   }
-}
+
 
 
