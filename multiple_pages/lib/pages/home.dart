@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import './page1.dart';
+import './page2.dart';
+
 class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -18,11 +21,12 @@ class Homepage extends StatelessWidget {
                     RaisedButton(
                       color: Colors.lightGreen,
                       child: Text("PAGE 1"),
-                      onPressed: () => {},
+                      onPressed: () => Navigator.push(context,MaterialPageRoute(builder: (BuildContext context)=>Page_one())),
                     ),
                     RaisedButton(
+                      color: Colors.lightGreen,
                       child: Text("PAGE 2"),
-                      onPressed: () => {},
+                      onPressed: () => Navigator.push(context,MaterialPageRoute(builder: (BuildContext context)=>Page_two())),
                     )
                   ],
                 )))));
