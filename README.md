@@ -13,3 +13,10 @@ This application simply switchees between two images on press of a button.
   * Implementation of Raised Buttons
   * Implementing state change due to button click
   * Implementation of modular code,interaction between stateless and stateful widgets.
+
+### Second App : Multiple Pages
+
+This application was made to practise the page changing of a flutter application using Material Page Route
+
+  * Implementation of page changing using material page route 
+  * Interconnection between pages 
