@@ -7,6 +7,10 @@ class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        drawer: Drawer(child:Column(children: <Widget>[
+          AppBar(title: Text("Add ons "),),
+          ListTile(title: Text("Info"),onTap: (){},)
+        ],)),
         appBar: AppBar(
           title: Text('Multiple Pages'),
         ),

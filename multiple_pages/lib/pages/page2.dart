@@ -7,6 +7,8 @@ class Page_two extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          automaticallyImplyLeading: false,
+          elevation: 10.0,
           title: Text('Page 2'),
         ),
         body: Container(
@@ -21,7 +23,7 @@ class Page_two extends StatelessWidget{
                       child: Text("Page 1"),
                       onPressed: (){
                         Navigator.pop(context);
-                        Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => Page_one()))
+                        Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => Page_one()));
                       },
                     ),
                     RaisedButton(
