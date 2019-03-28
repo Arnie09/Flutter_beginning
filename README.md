@@ -20,3 +20,6 @@ This application was made to practise the page changing of a flutter application
 
   * Implementation of page changing using material page route 
   * Interconnection between pages 
+  * Implementation of Drawer
+  * Implementation of TabView
+  * Implementation of RichText and text styles(use of hyperlinks in texts)
