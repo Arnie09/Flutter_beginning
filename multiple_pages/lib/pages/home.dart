@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import './page1.dart';
 import './page2.dart';
+import './info.dart';
 
 class Homepage extends StatelessWidget {
   @override
@@ -9,7 +10,9 @@ class Homepage extends StatelessWidget {
     return Scaffold(
         drawer: Drawer(child:Column(children: <Widget>[
           AppBar(title: Text("Add ons "),),
-          ListTile(title: Text("Info"),onTap: (){},)
+          ListTile(title: Text("Info"),onTap: (){
+            Navigator.push(context, MaterialPageRoute(builder: (BuildContext context)=>Info()));
+          },)
         ],)),
         appBar: AppBar(
           title: Text('Multiple Pages'),
